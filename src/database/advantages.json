@@ -1,0 +1,56 @@
+[
+    {
+        "id": "ddfsf6l453dsf3Df",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-1.png?alt=media&token=809d0403-7696-41e8-b8dd-89b6c68a2470",
+        "title": "Экономия на хранилище",
+        "text": "за счёт собственных цистерн на нашей базе"
+    },
+    {
+        "id": "ddfsf6l453dsf3Dg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-2.png?alt=media&token=6341a14b-b168-4967-a862-336289cd2f57",
+        "title": "Экономия на транспорте",
+        "text": "более 10 собственный газовозов"
+    },
+    {
+        "id": "ddfsf6l453dsf3Dh",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-3.png?alt=media&token=5cff633d-84f2-423d-8f49-5b73c6b53332",
+        "title": "Поставки напрямую от производителей",
+        "text": "нет наценки на стоимость газа как у перекупщиков и небольших частных компаний"
+    },
+    {
+        "id": "ddfsf6l453dsf3Di",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-4.png?alt=media&token=49bd6e23-2dce-48fc-85ab-1e1a615061f2",
+        "title": "Любые объёмы поставки качественного газа",
+        "text": "вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа"
+    },
+    {
+        "id": "ddfsf6l453dsf3Dj",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-5.png?alt=media&token=40438a6f-0382-4da2-a49a-87897efe21d0",
+        "title": "Оплата удобным для вас способом",
+        "text": "все газовозы оснащены терминалами для оплаты вашего заказа"
+    },
+    {
+        "id": "ddfsf6l453dsf3Dk",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-6.png?alt=media&token=5cf6b15e-4f54-4d60-8f10-aea34763b40d",
+        "title": "Чистый газ без примесей",
+        "text": "нет наценки на стоимость газа как у перекупщиков и небольших частных компаний"
+    },
+    {
+        "id": "ddfsf6l453dsf3Dl",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-7.png?alt=media&token=6e9da651-cc16-4b02-93d7-6f87e07cfc02",
+        "title": "Длина заправочных рукавов — 50 метров",
+        "text": "не требуется подъезд автомобиля вплотную к резервуару"
+    },
+    {
+        "id": "ddfsf6l453dsf3Dm",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-8.png?alt=media&token=9ba76132-75a0-4ca9-bd0e-95fdc398f05d",
+        "title": "Доставка сжиженного газа в формате 24/7",
+        "text": "привезем газ в удобное для вас время или же по графику"
+    },
+    {
+        "id": "ddfsf6l453dsf3Dn",
+        "img": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fadvantages%2Fadvantage-9.png?alt=media&token=9b232b5a-380f-4287-bb03-b728e1286e6c",
+        "title": "Аттестованный персонал",
+        "text": "квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут"
+    }
+]

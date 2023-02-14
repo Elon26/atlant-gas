@@ -1,0 +1,44 @@
+[
+    {
+        "id": "dd2sf2b193dsf3Df",
+        "name": "Роснефть",
+        "link": "https://www.rosneft.ru/",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fask%2Fclient-1.png?alt=media&token=b6f60989-b380-4129-b656-9d2f02f65ba2",
+        "needToUp": false
+    },
+    {
+        "id": "dd2sf2b193dsf3Dg",
+        "name": "Башнефть",
+        "link": "https://www.bashneft.ru/",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fask%2Fclient-2.png?alt=media&token=10608d85-94f9-450c-91cd-828c0940f672",
+        "needToUp": false
+    },
+    {
+        "id": "dd2sf2b193dsf3Dh",
+        "name": "Транснефть",
+        "link": "https://www.transneft.ru/",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fask%2Fclient-3.png?alt=media&token=35248310-d450-4900-990e-e38d969ce965",
+        "needToUp": false
+    },
+    {
+        "id": "dd2sf2b193dsf3Di",
+        "name": "Газпром",
+        "link": "https://www.gazprom.ru/",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fask%2Fclient-4.png?alt=media&token=26096654-0adb-467e-97cc-6cdd075ac678",
+        "needToUp": true
+    },
+    {
+        "id": "dd2sf2b193dsf3Dj",
+        "name": "Сургутнефтегаз",
+        "link": "https://www.surgutneftegas.ru/",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fask%2Fclient-5.png?alt=media&token=bae8ee66-38cd-47c5-b342-a8016188b3e6",
+        "needToUp": false
+    },
+    {
+        "id": "dd2sf2b193dsf3Dk",
+        "name": "Татнефть",
+        "link": "https://www.tatneft.ru/",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/porfolio-f48be.appspot.com/o/Atlant%20Gas%2Fask%2Fclient-6.png?alt=media&token=d482d629-b683-483c-bbb7-8678f22524f3",
+        "needToUp": true
+    }
+]

@@ -1,0 +1,52 @@
+.spoiler {
+    &__item {
+        padding: 25px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        &:first-child {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        min-height: 2em;
+        max-height: 5em;
+
+        transition: min-height 1s linear 0s, max-height 1s linear 0s;
+
+        &.active {
+            min-height: 4em;
+            max-height: 20em;
+        }
+    }
+
+    &__titleBlock {
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+
+        @media (hover: hover) {
+            &:hover {
+                color: #2194ff;
+            }
+        }
+
+        &.active {
+            color: #2194ff;
+        }
+    }
+
+    &__icon {
+        margin: 0px 10px 0px 0px;
+        transition: all 0.3s ease 0s;
+        &.active {
+            transform: rotate(90deg);
+        }
+    }
+
+    &__title {
+        font-family: Open Sans;
+        font-weight: 700;
+    }
+
+    &__body {
+        margin: 15px 0px 0px 0px;
+        font-weight: 300;
+    }
+}
