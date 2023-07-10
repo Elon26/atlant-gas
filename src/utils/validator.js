@@ -9,7 +9,7 @@ const validator = (data, config) => {
         }
 
         if (validateMethod === "isFullNumber") {
-            statusValidate = data.length !== 11;
+            statusValidate = data.length !== 18;
         }
 
         if (statusValidate) return config.message;

@@ -5,12 +5,12 @@ import validator from "../utils/validator";
 import PropTypes from "prop-types";
 import "../styles/popap.scss";
 import { send } from "emailjs-com";
-import phoneMaskHandler from "../utils/phoneMaskHandler";
+import PhoneItem from "./PhoneItem";
 
 const OrderPopap = ({ isOrderPopapOpen, closeOrderPopap, openThanksPopap }) => {
     const defaultObject = {
         name: "",
-        phone: "8"
+        phone: ""
     };
 
     const [data, setData] = useState(defaultObject);
@@ -28,20 +28,10 @@ const OrderPopap = ({ isOrderPopapOpen, closeOrderPopap, openThanksPopap }) => {
     };
 
     const handleChange = (target) => {
-        if (target.name === "phone") {
-            const handledValue = phoneMaskHandler(target.value);
-            if (handledValue) {
-                setData((prevState) => ({
-                    ...prevState,
-                    [target.name]: handledValue
-                }));
-            }
-        } else {
-            setData((prevState) => ({
-                ...prevState,
-                [target.name]: target.value
-            }));
-        }
+        setData((prevState) => ({
+            ...prevState,
+            [target.name]: target.value
+        }));
     };
 
     const validatorConfig = {
@@ -52,7 +42,7 @@ const OrderPopap = ({ isOrderPopapOpen, closeOrderPopap, openThanksPopap }) => {
         },
         phone: {
             isFullNumber: {
-                message: "Введите номер телефона"
+                message: "Введите номер телефона полностью"
             }
         }
     };
@@ -117,12 +107,11 @@ const OrderPopap = ({ isOrderPopapOpen, closeOrderPopap, openThanksPopap }) => {
                             error={errors.name}
                             placeholder="Имя"
                         />
-                        <InputItem
-                            type="tel"
+                        <PhoneItem
                             name="phone"
                             value={data.phone}
-                            onChange={handleChange}
                             error={errors.phone}
+                            handleChangePhone={handleChange}
                             placeholder="Телефон"
                         />
                         <button
